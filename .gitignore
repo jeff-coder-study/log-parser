@@ -7,7 +7,7 @@ __pycache__/
 
 # sample logs
 sample_logs/*.json
-!sample_logs/example_journal.json
+!sample_logs/example_logs.json
 
 # C extensions
 *.so

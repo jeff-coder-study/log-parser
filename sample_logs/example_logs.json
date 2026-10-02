@@ -1,0 +1,5 @@
+{"PRIORITY": "6", "SYSLOG_FACILITY": "3", "SYSLOG_IDENTIFIER": "tailscaled", "_SYSTEMD_UNIT": "tailscaled.service", "MESSAGE": "wgengine: Received new config", "_HOSTNAME": "demo-host"}
+{"PRIORITY": "6", "SYSLOG_FACILITY": "0", "SYSLOG_IDENTIFIER": "kernel", "MESSAGE": "eth0: link becomes ready", "_HOSTNAME": "demo-host"}
+{"PRIORITY": "6", "SYSLOG_FACILITY": "3", "SYSLOG_IDENTIFIER": "dockerd", "_SYSTEMD_UNIT": "docker.service", "MESSAGE": "time=\"2026-01-01T12:00:00Z\" level=info msg=\"container started\"", "_HOSTNAME": "demo-host"}
+{"PRIORITY": "5", "SYSLOG_FACILITY": "4", "SYSLOG_IDENTIFIER": "sshd", "_SYSTEMD_UNIT": "ssh.service", "MESSAGE": "pam_unix(sshd:auth): check pass; user unknown", "_HOSTNAME": "demo-host"}
+{"PRIORITY": "5", "SYSLOG_FACILITY": "4", "SYSLOG_IDENTIFIER": "sshd", "_SYSTEMD_UNIT": "ssh.service", "MESSAGE": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.1", "_HOSTNAME": "demo-host"}
