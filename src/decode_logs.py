@@ -26,7 +26,7 @@ def read_logfile(filepath):
         return data
 
     except FileNotFoundError:
-        print("Error: 'data.json' file was not found.")
+        print("Error: json log file was not found.")
         return []
 
 def extract_data(entry): 
@@ -51,7 +51,7 @@ def extract_data(entry):
 
 
 if __name__ == "__main__":
-    raw_logs = read_logfile("../sample_logs/ssh_only_logs.json")
+    raw_logs = read_logfile("sample_logs/example_logs.json")
 
     for log in raw_logs:
         summary = extract_data(log)
